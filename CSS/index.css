@@ -1,0 +1,106 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background: url(../images/pattern-background-desktop.svg), -webkit-gradient(linear, left top, left bottom, from(rgba(214, 224, 255, 0.7)), to(rgba(214, 224, 255, 0.7)));
+  background: url(../images/pattern-background-desktop.svg), linear-gradient(rgba(214, 224, 255, 0.7), rgba(214, 224, 255, 0.7));
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0;
+}
+
+.main-sec {
+  width: 28%;
+  background-color: white;
+  margin: 83px auto;
+  border-radius: 20px;
+}
+
+.main-sec h3 {
+  color: #1f2f56;
+}
+
+.img img {
+  border-radius: 20px 20px 0 0;
+}
+
+.text {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  color: #7280a7;
+}
+
+.plan-info {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(224, 232, 255, 0.4);
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.plan-info a {
+  color: #3829e0;
+}
+
+.plan-info a:hover {
+  text-decoration: none;
+  color: rgba(56, 41, 224, 0.7);
+}
+
+.plan-info p {
+  color: #1f2f56;
+  font-weight: bold;
+}
+
+.plan-info span {
+  color: #7280a7;
+  font-size: 14px;
+}
+
+.payment-btn {
+  text-align: center;
+}
+
+.payment-btn button {
+  width: 80%;
+  height: 50px;
+  color: white;
+  background-color: #3829e0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.payment-btn button:hover {
+  background-color: rgba(56, 41, 224, 0.6);
+}
+
+.cancel-btn button {
+  height: 50px;
+  border: none;
+  background-color: white;
+  color: #1f2f56;
+  font-weight: bold;
+}
+
+@media (max-width: 740px) {
+  .main-sec {
+    width: 90%;
+    margin: 151px auto;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1020px) {
+  .main-sec {
+    width: 50%;
+    margin: 262px auto;
+  }
+}
+/*# sourceMappingURL=index.css.map */

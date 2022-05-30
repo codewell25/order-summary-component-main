@@ -1,0 +1,117 @@
+$Paleblue: hsl(225, 100%, 94%);
+$Brightblue: hsl(245, 75%, 52%);
+$Verypaleblue: hsl(225, 100%, 98%);
+$Desaturatedblue: hsl(224, 23%, 55%);
+$Darkblue: hsl(223, 47%, 23%);
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(../images/pattern-background-desktop.svg), linear-gradient(rgba(214, 224, 255, 0.7), rgba(214, 224, 255, 0.7));
+
+    box-sizing: border-box;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0;
+}
+
+
+.main-sec {
+
+    width: 28%;
+    background-color: white;
+    margin: 83px auto;
+    border-radius: 20px;
+
+    h3 {
+        color: $Darkblue;
+    }
+}
+
+.img {
+    img {
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+.text {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    color: $Desaturatedblue;
+}
+
+.plan-info {
+    width: 80%;
+    margin: auto;
+    background-color: hsla(225, 100%, 94%, 0.4);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    a {
+        color: $Brightblue;
+
+        &:hover {
+            text-decoration: none;
+            color: hsla(245, 75%, 52%, 0.7);
+        }
+    }
+
+    p {
+        color: $Darkblue;
+        font-weight: bold;
+    }
+
+    span {
+        color: $Desaturatedblue;
+        font-size: 14px;
+    }
+
+}
+
+.payment-btn {
+    text-align: center;
+
+    button {
+        width: 80%;
+        height: 50px;
+        color: white;
+        background-color: $Brightblue;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+        &:hover {
+            background-color: hsla(245, 75%, 52%, 0.6);
+        }
+    }
+}
+
+.cancel-btn {
+    button {
+        height: 50px;
+        border: none;
+        background-color: white;
+        color: $Darkblue;
+        font-weight: bold;
+
+    }
+}
+
+@media(max-width:740px) {
+    .main-sec {
+        width: 90%;
+        margin: 151px auto;
+    }
+}
+
+@media (min-width:741px) and (max-width:1020px) {
+    .main-sec {
+        width: 50%;
+        margin: 262px auto;
+    }
+
+}
